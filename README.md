@@ -1,2 +1,2 @@
 # latex
-Docker Image for LaTeX
+Docker image for LaTeX
