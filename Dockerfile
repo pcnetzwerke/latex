@@ -1,4 +1,4 @@
-FROM ubuntu:18.04 as base
+FROM ubuntu:latest as base
 
 MAINTAINER martin@pcnetzwerke.de
 
