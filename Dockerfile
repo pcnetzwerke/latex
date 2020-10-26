@@ -22,6 +22,7 @@ RUN apt-get update \
   texlive-lang-english \
   texlive-lang-german \
   texlive-full \
+  && apt-get clean &&
   && rm -rf /var/lib/apt/lists/*
 
 RUN lsb_release -a
