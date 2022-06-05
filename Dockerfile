@@ -3,7 +3,7 @@ FROM ubuntu:latest as base
 MAINTAINER martin@pcnetzwerke.de
 
 ENV LAST_UPDATED 2020-10-27
-ENV LAST_TRIGGERED 2022-05-29
+ENV LAST_TRIGGERED 2022-06-05
 
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive \
